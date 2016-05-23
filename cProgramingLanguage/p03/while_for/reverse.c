@@ -4,6 +4,7 @@
 void reverse(char s[]);
 int mystrlen(char s[]);
 
+#if 0
 int main()
 {
 	char s[20] = {0};
@@ -15,6 +16,7 @@ int main()
 	}
 	return 0;
 }
+#endif
 
 void reverse(char s[])
 {

@@ -1,9 +1,10 @@
 .SUFFIXES:.c.o
 
 CC=gcc
-SRCS=myatoi.c
+SRCS=collection.c	\
+	 main.c
 OBJS=$(SRCS:.c=.o)
-EXEC=hello
+EXEC=main
 
 start:$(OBJS)
 	$(CC) $(OBJS) -o $(EXEC)
